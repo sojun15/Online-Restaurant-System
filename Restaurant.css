@@ -1,0 +1,72 @@
+/* universal selector for applying common attribute  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* starts header section here */
+header{
+    margin-top: .5rem;
+    text-align: center;
+
+}
+h1{
+    animation-name: restuarant;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+h2{
+    background-color: black;
+    color: white;
+    margin: 1rem 0;
+}
+@keyframes restuarant{
+    0%{
+        background-color: #1eadba;
+    }
+    25%{
+        background-color: #151bc2;
+    }
+    50%{
+        background-color: #a815c2;
+    }
+    75%{
+        background-color: #15c21e;
+    }
+    100%{
+        background-color: #dbd114;
+    }
+}
+/* ends header section here */
+
+.food__item{
+    border: .1rem dashed black;
+    width: 16.5rem;
+    height: 19rem;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.image{
+    width: 15rem;
+    height: 12rem;
+}
+.item__description{
+    text-align: center;
+    padding: 1rem;
+}
+
+.description__price{
+    margin: .5rem;
+}
+.description__button{
+    height: 2rem;
+    width: 5rem;
+}
+.food-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: .5rem;
+}
+
