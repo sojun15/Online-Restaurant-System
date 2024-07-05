@@ -70,3 +70,31 @@ h2{
     margin: .5rem;
 }
 
+@media only screen and (max-width:768px) {
+    .food-items{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: .5rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .food-items{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 2rem;
+        /* width: 90%; */
+    }
+    .food__item{
+        border: .1rem dashed black;
+        width: 19rem;
+        height: 19rem;
+        padding: 1rem;
+        margin: .5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
